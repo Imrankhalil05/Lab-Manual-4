@@ -1,0 +1,57 @@
+#include <iostream>
+using namespace std;
+int main ()
+{ 
+//task 1
+int sum =0  ;
+
+ for  (int a= 1;a<= 10;a++)  {
+ 	sum += a;
+	}
+	cout<<"the Sum of first 10 natural numbers is "<<sum<<endl;
+	return 0;
+}
+//task 2
+{ int multi = 0 ,a;
+cout<<"enter a whole number"<<endl;
+cin>>a;
+for  (int x=0;x<11;x++) {
+	multi = a*x	;
+	cout<<a<<"x"<<x<<"="<<multi<<endl;
+}
+
+return 0;
+}
+
+//task 3
+{
+	int fac =1,m,n;
+	cout<<"enter a positive number "<<endl;
+	cin>>n;
+	for (int m=1 ; m<=n  ;m++) {
+		fac = fac*m;
+		
+	
+	}
+		cout<<"factorial of "<<n<<" = "<<factorial;
+
+	return 0;
+}
+
+//task 4
+{  int x,y;
+ cout<<"Enter a number: "<<endl;
+ cin>>x; 
+ int a = 0, b = 1;
+ cout<<"series upto" <<x<< "is ";
+ cout<<a<<","<<b<<",";
+ 
+ for (y=2;y<x;y++) {
+ 	x=a+b;
+ 	cout<<x<<",";
+ 	a+b;
+ 	b+x;
+ 	
+ }
+ return 0;
+}
